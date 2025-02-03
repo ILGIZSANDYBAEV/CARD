@@ -1,0 +1,68 @@
+.block{
+  
+}
+.vhod{
+    display: flex;
+    justify-content: center;
+    
+}
+.head{
+     width: 300px;
+     height: 300px;
+     border: 20px double;
+     border-radius: 20px;
+    animation: move 2s infinite ;
+    
+}
+@keyframes move{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.content{
+      margin-top: 50px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.log{
+    font-weight: bold;
+    font-size: 30px;
+}
+.par{
+    font-weight: bold;
+    font-size: 30px;
+    align-items: end;
+    height: 20vh;
+}
+.hod{
+    font-weight: bold;
+    font-size: 30px;
+}
+.check{
+    display: flex;
+
+}
+.chec{
+    display: flex;
+    
+}
+.voi{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 15vh;
+    color: red;
+    
+}
